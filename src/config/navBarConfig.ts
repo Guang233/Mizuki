@@ -134,31 +134,31 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 
 		// 自定义一级下拉菜单示例：外部链接集合
-		{
-			name: "Links",
-			url: "/links/",
-			icon: "material-symbols:link",
-			children: [
-				{
-					name: "GitHub",
-					url: "https://github.com/LyraVoid/Mizuki",
-					external: true, // 外部链接，新标签页打开
-					icon: "fa7-brands:github",
-				},
-				{
-					name: "Bilibili",
-					url: "https://space.bilibili.com/701864046",
-					external: true,
-					icon: "fa7-brands:bilibili",
-				},
-				{
-					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
-					external: true,
-					icon: "mdi:git",
-				},
-			],
-		},
+		// {
+		// 	name: "Links",
+		// 	url: "/links/",
+		// 	icon: "material-symbols:link",
+		// 	children: [
+		// 		{
+		// 			name: "GitHub",
+		// 			url: "https://github.com/LyraVoid/Mizuki",
+		// 			external: true, // 外部链接，新标签页打开
+		// 			icon: "fa7-brands:github",
+		// 		},
+		// 		{
+		// 			name: "Bilibili",
+		// 			url: "https://space.bilibili.com/701864046",
+		// 			external: true,
+		// 			icon: "fa7-brands:bilibili",
+		// 		},
+		// 		{
+		// 			name: "Gitee",
+		// 			url: "https://gitee.com/matsuzakayuki/Mizuki",
+		// 			external: true,
+		// 			icon: "mdi:git",
+		// 		},
+		// 	],
+		// },
 
 		// 自定义一级下拉菜单示例：个人内容页面
 		{
